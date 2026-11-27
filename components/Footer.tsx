@@ -1,10 +1,12 @@
 import { CONTACT_EMAIL, WHATSAPP_DISPLAY, whatsappLink } from "@/lib/constants";
+import BarraDunkode from "@/components/marca/BarraDunkode";
 import GridPattern from "./GridPattern";
 import styles from "./Footer.module.css";
 
 export default function Footer() {
   return (
     <footer className={styles.footer}>
+      <div className={styles.inner}>
       <GridPattern />
       <div className={styles.grid}>
         <div>
@@ -50,6 +52,8 @@ export default function Footer() {
         <span>© {new Date().getFullYear()} RDR Soldas e Serviços</span>
         <span>São Paulo · SP</span>
       </div>
+      </div>
+      <BarraDunkode origem="portifolio-rds-soldas" />
     </footer>
   );
 }

@@ -1,8 +1,13 @@
 .footer {
   position: relative;
-  padding: 56px 24px 40px;
   background: #040b1c;
+  color: #c2cfe4;
   border-top: 1px solid rgba(160, 190, 255, 0.12);
+}
+
+.inner {
+  position: relative;
+  padding: 56px 24px 40px;
 }
 
 .grid {
